@@ -30,15 +30,16 @@
   place-items: center;
   border: 3px solid white;
   border-radius: 0.5rem;
-  width: 15rem;
+  /* width: 15rem; */
+  width: 25%;
 }
 
 .home {
-  background-color: #656565;
+  background-color: #612121;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #e79b0d;
 }
 
 .home__name,
@@ -71,6 +72,7 @@
   background-color: var(--black);
   border: 2px solid white;
   border-radius: 6px;
+  /* width: 50%; */
 }
 
 .bottomRow {
@@ -111,6 +113,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  /* align-content: center; */
 }
 
 .homeButtons__touchdown,
